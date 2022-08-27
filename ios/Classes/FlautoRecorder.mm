@@ -217,10 +217,10 @@ AudioRecInterface* audioRec;
 
         if(codec == pcm16)
         {
-                if (numChannels != 1)
-                {
-                                return false;
-                }
+                //if (numChannels != 1)
+                //{
+                                //return false;
+                //}
                 audioRec = new AudioRecorderEngine(codec, path, audioSettings, self);
         } else
         {
